@@ -1,39 +1,62 @@
-## Welcome to GitHub Pages
+Simple Device Model (SDM) is an open source instrument control and data acquisition framework for Windows and Linux. It provides interactive GUI tools for operating devices and visualizing the received data. It is also fully scriptable with [Lua](https://www.lua.org).
 
-You can use the [editor on GitHub](https://github.com/SimpleDeviceModel/SimpleDeviceModel.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+A device is represented by SDM as a set of control channels and data sources, hence the “model”. SDM interacts with devices by writing and reading registers and memory blocks in the device’s virtual address space, and by reading data streams from the device. The actual code that communicates with hardware is encapsulated within a plugin. SDM framework is [well documented](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf) and includes an SDK which contains headers and libraries to develop plugins in C and C++ as well as a few example plugins.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+SDM is most useful for prototyping, allowing the developer to quickly create virtual control panels and dashboards. Scriptability makes it also well suited for test and measurement automation.
 
-### Markdown
+# Screenshots
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!-- Main window screenshot with various plotters -->
 
-```markdown
-Syntax highlighted code block
+SDM provides multiple methods of data visualization, such as 2D plot (oscillogram), bar chart, scrolling image and binary representations.
 
-# Header 1
-## Header 2
-### Header 3
+<!-- Register map screenshots -->
 
-- Bulleted
-- List
+Register map provides access to the device’s virtual address space. Values can be entered directly or with the help of drop-down lists, combo boxes and push buttons. Register map tables are fully editable in GUI.
 
-1. Numbered
-2. List
+# Download
 
-**Bold** and _Italic_ and `Code` text
+The latest release, 1.0.0, was published on 2021-11-23.
 
-[Link](url) and ![Image](src)
+* [SDM-1.0.0-setup-x64.exe](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-setup-x64.exe) - for 64-bit Windows
+* [SDM-1.0.0-setup-x86.exe](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-setup-x86.exe) - for 32-bit Windows
+* [SDM-1.0.0-src.tar.gz](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-src.tar.gz) - sources (multi-platform)
+
+Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/qt-everywhere-opensource-src-5.6.3.7z). Other versions of Qt can be downloaded from the [Qt website](https://download.qt.io/official_releases/qt/).
+
+# Building
+
+Building SDM requires CMake and Qt. For Ubuntu, prerequisites can be installed as follows:
+
+```
+sudo apt-get install build-essential qt5-default libqt5svg5-dev qttools5-dev \
+qttools5-dev-tools qttranslations5-l10n qt5-image-formats-plugins cmake
 ```
 
-![Test image](/assets/test.png)
+Then, the SDM framework can be built:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+```
+wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-src.tar.gz
+cd SDM-1.0.0-src
+mkdir build
+cd build
+cmake ../src
+make -j
+sudo make install
+```
 
-### Jekyll Themes
+By default, SDM will be installed to `/usr/local`. Refer to [the manual](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf) for detailed build instructions.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SimpleDeviceModel/SimpleDeviceModel.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Documentation
 
-### Support or Contact
+[User Manual](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+SDM includes an example plugin communicating with Arduino Uno over the serial port.
+
+SDM also includes a purely software test plugin to help you get acquainted with the program interface (no extra hardware required).
+
+# License
+
+Simple Device Model framework is Copyright © [Microproject LLC](http://www.micro-project.ru/en/), 2015-2021.
+
+Simple Device Model framework is licensed under the terms of the GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version. The SDK is licensed under the terms of the MIT license. See [license.txt](https://raw.githubusercontent.com/SimpleDeviceModel/sdm/master/doc/licenses/license.txt) for details.
