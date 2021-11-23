@@ -6,7 +6,7 @@ SDM is most useful for prototyping, allowing the developer to quickly create vir
 
 ## Screenshots
 
-<!-- Main window screenshot with various plotters -->
+![sdmconsole main window screenshot](/assets/mainwindow.png)
 
 SDM provides multiple methods of data visualization, such as 2D plot (oscillogram), bar chart, scrolling image and binary representations.
 
