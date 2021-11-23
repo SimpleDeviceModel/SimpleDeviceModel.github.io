@@ -4,7 +4,7 @@ A device is represented by SDM as a set of control channels and data sources, he
 
 SDM is most useful for prototyping, allowing the developer to quickly create virtual control panels and dashboards. Scriptability makes it also well suited for test and measurement automation.
 
-# Screenshots
+## Screenshots
 
 <!-- Main window screenshot with various plotters -->
 
@@ -14,7 +14,7 @@ SDM provides multiple methods of data visualization, such as 2D plot (oscillogra
 
 Register map provides access to the device’s virtual address space. Values can be entered directly or with the help of drop-down lists, combo boxes and push buttons. Register map tables are fully editable in GUI.
 
-# Download
+## Download
 
 The latest release, 1.0.0, was published on 2021-11-23.
 
@@ -24,7 +24,7 @@ The latest release, 1.0.0, was published on 2021-11-23.
 
 Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/qt-everywhere-opensource-src-5.6.3.7z). Other versions of Qt can be downloaded from the [Qt website](https://download.qt.io/official_releases/qt/).
 
-# Building
+## Building
 
 Building SDM requires CMake and Qt. For Ubuntu, prerequisites can be installed as follows:
 
@@ -47,7 +47,7 @@ sudo make install
 
 By default, SDM will be installed to `/usr/local`. Refer to [the manual](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf) for detailed build instructions.
 
-# Documentation
+## Documentation
 
 [User Manual](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf)
 
@@ -55,7 +55,7 @@ SDM includes an example plugin communicating with Arduino Uno over the serial po
 
 SDM also includes a purely software test plugin to help you get acquainted with the program interface (no extra hardware required).
 
-# License
+## License
 
 Simple Device Model framework is Copyright © [Microproject LLC](http://www.micro-project.ru/en/), 2015-2021.
 
