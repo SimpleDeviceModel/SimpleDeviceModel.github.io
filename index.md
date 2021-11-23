@@ -50,7 +50,7 @@ By default, SDM will be installed to `/usr/local`. Refer to [the manual](https:/
 
 ## Documentation
 
-[User Manual](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf)
+[User Manual (PDF)](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf)
 
 SDM includes an example plugin communicating with Arduino Uno over the serial port.
 
