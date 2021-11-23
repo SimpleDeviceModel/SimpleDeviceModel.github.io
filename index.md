@@ -37,6 +37,7 @@ Then, the SDM framework can be built:
 
 ```
 wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-src.tar.gz
+tar -xzf SDM-1.0.0-src.tar.gz
 cd SDM-1.0.0-src
 mkdir build
 cd build
