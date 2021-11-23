@@ -10,7 +10,7 @@ SDM is most useful for prototyping, allowing the developer to quickly create vir
 
 SDM provides multiple methods of data visualization, such as 2D plot (oscillogram), bar chart, scrolling image and binary representations.
 
-<!-- Register map screenshots -->
+<p align="center"><img alt="sdmconsole register map screenshots" src="/assets/registers.png"></p>
 
 Register map provides access to the device’s virtual address space. Values can be entered directly or with the help of drop-down lists, combo boxes and push buttons. Register map tables are fully editable in GUI.
 
