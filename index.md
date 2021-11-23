@@ -60,4 +60,4 @@ SDM also includes a purely software test plugin to help you get acquainted with 
 
 Simple Device Model framework is Copyright © [Microproject LLC](http://www.micro-project.ru/en/), 2015-2021.
 
-Simple Device Model framework is licensed under the terms of the GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version. The SDK is licensed under the terms of the MIT license. See [license.txt](https://raw.githubusercontent.com/SimpleDeviceModel/sdm/master/doc/licenses/license.txt) for details.
+Simple Device Model framework is licensed under the terms of the GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version. The SDK is licensed under the terms of the MIT license. See [`license.txt`](https://raw.githubusercontent.com/SimpleDeviceModel/sdm/master/doc/licenses/license.txt) for details.
