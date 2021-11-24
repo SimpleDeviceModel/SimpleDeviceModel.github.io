@@ -22,8 +22,6 @@ The latest release, 1.0.0, was published on 2021-11-23.
 * [**SDM-1.0.0-setup-x86.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-setup-x86.exe) - for 32-bit Windows
 * [**SDM-1.0.0-src.tar.gz**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/SDM-1.0.0-src.tar.gz) - sources (multi-platform)
 
-Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/qt-everywhere-opensource-src-5.6.3.7z). Other versions of Qt can be downloaded from the [Qt website](https://download.qt.io/).
-
 ## Building
 
 Building SDM requires CMake and Qt. For Ubuntu, prerequisites can be installed as follows:
@@ -47,6 +45,8 @@ sudo make install
 ```
 
 By default, SDM will be installed to `/usr/local`. Refer to [the manual (PDF)](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf) for detailed build instructions.
+
+Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.0/qt-everywhere-opensource-src-5.6.3.7z). Other versions of Qt can be downloaded from the [Qt website](https://download.qt.io/).
 
 ## Documentation
 
