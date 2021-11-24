@@ -8,11 +8,11 @@ SDM is most useful for prototyping, allowing the developer to quickly create vir
 
 SDM provides multiple methods of data visualization, such as 2D plot (oscillogram), bar chart, scrolling image and binary representations.
 
-<p align="center"><a href="https://raw.githubusercontent.com/SimpleDeviceModel/SimpleDeviceModel.github.io/main/assets/mainwindow.png" title="Click to enlarge"><img alt="sdmconsole main window screenshot" src="/assets/mainwindow.png"></a></p>
+<p align="center"><a href="https://simpledevicemodel.github.io/assets/mainwindow.png" title="Click to enlarge"><img alt="sdmconsole main window screenshot" src="/assets/mainwindow.png"></a></p>
 
 Register map provides access to the device’s virtual address space. Values can be entered directly or with the help of drop-down lists, combo boxes and push buttons. Register map tables are fully editable in GUI.
 
-<p align="center"><a href="https://raw.githubusercontent.com/SimpleDeviceModel/SimpleDeviceModel.github.io/main/assets/registers2.png" title="Click to enlarge"><img alt="sdmconsole register map screenshots" src="/assets/registers2.png"></a></p>
+<p align="center"><a href="https://simpledevicemodel.github.io/assets/registers2.png" title="Click to enlarge"><img alt="sdmconsole register map screenshots" src="/assets/registers2.png"></a></p>
 
 ## Download
 
