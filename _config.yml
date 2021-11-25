@@ -1,7 +1,7 @@
 theme: jekyll-theme-slate
 
 title: Simple Device Model
-description: An open source instrument control an data acqusition framework
+description: An open source instrument control and data acqusition framework
 github:
   repository_url: https://github.com/SimpleDeviceModel/sdm
   is_project_page: true
