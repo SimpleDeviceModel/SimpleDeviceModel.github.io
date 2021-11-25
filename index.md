@@ -2,7 +2,7 @@ Simple Device Model (SDM) is an open source instrument control and data acquisit
 
 A device is represented by SDM as a set of control channels and data sources, hence the “model”. SDM interacts with devices by writing and reading registers and memory blocks in the device’s virtual address space, and by reading data streams from the device. The actual code that communicates with hardware is encapsulated within a **plugin**. SDM framework is [well documented](#documentation) and includes an SDK which contains headers and libraries to develop plugins in C and C++ as well as a few example plugins.
 
-SDM is most useful for prototyping, allowing the developer to quickly create virtual control panels and dashboards. Scriptability makes it also well suited for test and measurement automation.
+SDM was created to make hardware engineers' life easier by reducing the amount of coding necessary to get the device up and running. SDM is most useful for prototyping, allowing the developer to quickly create virtual control panels and dashboards. Scriptability makes it also well suited for test and measurement automation.
 
 ## Screenshots
 
