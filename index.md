@@ -24,7 +24,7 @@ The latest release, 1.0.0, was published on 2021-11-23.
 
 ## Building
 
-Building SDM requires CMake and Qt. For Ubuntu, prerequisites can be installed as follows:
+Building SDM from source requires [CMake](https://cmake.org) and [Qt5](https://www.qt.io). For Ubuntu, the prerequisites can be installed as follows:
 
 ```
 sudo apt install build-essential qtbase5-dev qtbase5-dev-tools libqt5svg5-dev qttools5-dev \
