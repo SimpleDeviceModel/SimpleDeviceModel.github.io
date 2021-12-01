@@ -52,9 +52,10 @@ Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDe
 
 * [**User Manual (PDF)**](https://github.com/SimpleDeviceModel/sdm/raw/master/doc/manual.pdf)
 
-SDM includes an example plugin communicating with Arduino Uno over the serial port.
+Examples shipped with the SDM framework:
 
-SDM also includes a purely software test plugin to help you get acquainted with the program interface (no extra hardware required).
+* `uartdemo` - an example plugin communicating with an [Arduino Uno](https://www.arduino.cc/) board over the serial port.
+* `testplugin` - a purely software plugin to help you get acquainted with the program interface (no extra hardware required).
 
 ## License
 
