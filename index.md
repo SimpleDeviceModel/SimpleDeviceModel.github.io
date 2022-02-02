@@ -16,11 +16,11 @@ Register map provides access to the device’s virtual address space. Values can
 
 ## Download
 
-The latest release, 1.0.2, was published on 2021-12-07.
+The latest release, 1.0.3, was published on 2022-02-02.
 
-* [**SDM-1.0.2-setup-x64.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.2/SDM-1.0.2-setup-x64.exe) - for 64-bit Windows
-* [**SDM-1.0.2-setup-x86.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.2/SDM-1.0.2-setup-x86.exe) - for 32-bit Windows
-* [**SDM-1.0.2-src.tar.gz**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.2/SDM-1.0.2-src.tar.gz) - sources (multi-platform)
+* [**SDM-1.0.3-setup-x64.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.3/SDM-1.0.3-setup-x64.exe) - for 64-bit Windows
+* [**SDM-1.0.3-setup-x86.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.3/SDM-1.0.3-setup-x86.exe) - for 32-bit Windows
+* [**SDM-1.0.3-src.tar.gz**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.3/SDM-1.0.3-src.tar.gz) - sources (multi-platform)
 
 ## Building
 
@@ -34,9 +34,9 @@ qttools5-dev-tools qttranslations5-l10n qt5-image-formats-plugins cmake
 Then, the SDM framework can be built:
 
 ```
-wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.2/SDM-1.0.2-src.tar.gz
-tar -xzf SDM-1.0.2-src.tar.gz
-cd SDM-1.0.2-src
+wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.3/SDM-1.0.3-src.tar.gz
+tar -xzf SDM-1.0.3-src.tar.gz
+cd SDM-1.0.3-src
 mkdir build
 cd build
 cmake ../src
