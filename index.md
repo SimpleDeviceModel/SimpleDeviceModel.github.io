@@ -16,11 +16,11 @@ Register map provides access to the device’s virtual address space. Values can
 
 ## Download
 
-The latest release, 1.0.4, was published on 2022-02-08.
+The latest release, 1.0.5, was published on 2022-06-26.
 
-* [**SDM-1.0.4-setup-x64.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.4/SDM-1.0.4-setup-x64.exe) - for 64-bit Windows
-* [**SDM-1.0.4-setup-x86.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.4/SDM-1.0.4-setup-x86.exe) - for 32-bit Windows
-* [**SDM-1.0.4-src.tar.gz**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.4/SDM-1.0.4-src.tar.gz) - sources (multi-platform)
+* [**SDM-1.0.5-setup-x64.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.5/SDM-1.0.5-setup-x64.exe) - for 64-bit Windows
+* [**SDM-1.0.5-setup-x86.exe**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.5/SDM-1.0.5-setup-x86.exe) - for 32-bit Windows
+* [**SDM-1.0.5-src.tar.gz**](https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.5/SDM-1.0.5-src.tar.gz) - sources (multi-platform)
 
 ## Building
 
@@ -34,9 +34,9 @@ qttools5-dev-tools qttranslations5-l10n qt5-image-formats-plugins cmake
 Then, the SDM framework can be built:
 
 ```
-wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.4/SDM-1.0.4-src.tar.gz
-tar -xzf SDM-1.0.4-src.tar.gz
-cd SDM-1.0.4-src
+wget https://github.com/SimpleDeviceModel/sdm/releases/download/1.0.5/SDM-1.0.5-src.tar.gz
+tar -xzf SDM-1.0.5-src.tar.gz
+cd SDM-1.0.5-src
 mkdir build
 cd build
 cmake ../src
@@ -58,7 +58,5 @@ Examples shipped with the SDM framework:
 * `testplugin` &ndash; a purely software plugin to help you get acquainted with the program interface (no extra hardware required).
 
 ## License
-
-Simple Device Model framework is Copyright © [Microproject LLC](http://www.micro-project.ru/en/), 2015-2021.
 
 Simple Device Model framework is licensed under the terms of the GNU Lesser General Public License, either version 3 of the License, or (at your option) any later version. The SDK is licensed under the terms of the MIT license. See [license.txt](https://raw.githubusercontent.com/SimpleDeviceModel/sdm/master/doc/licenses/license.txt) for details.
