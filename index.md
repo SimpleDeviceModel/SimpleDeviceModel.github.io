@@ -54,7 +54,7 @@ Windows builds of SDM were linked against [Qt 5.6.3](https://github.com/SimpleDe
 
 Examples shipped with the SDM framework:
 
-* `uartdemo` &ndash; [an example plugin communicating with an Arduino Uno board over the serial port](https://create.arduino.cc/projecthub/catharanthus/yet-another-virtual-oscilloscope-for-arduino-e34ba4).
+* `uartdemo` &ndash; [an example plugin communicating with an Arduino Uno board over the serial port](https://www.hackster.io/catharanthus/yet-another-virtual-oscilloscope-for-arduino-e34ba4).
 * `testplugin` &ndash; a purely software plugin to help you get acquainted with the program interface (no extra hardware required).
 
 ## License
